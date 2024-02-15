@@ -1,0 +1,31 @@
+{
+    "testing_block_number": "<block_number>",
+    "swap": {
+        "sell_token": "<token0_address>",
+        "sell_amount": 0
+    },
+    "pool": {
+        "chain_id": "1",
+        "protocol_id": "UniswapV2",
+        "pool_type": "constant_product",
+        "pool_address": "<pool_address>",
+        "tokens": ["<token0_address>", "<token1_address>"],
+        "computation_units": {
+            "<token0_address>": {
+                "<token1_address>": 50000
+            },
+            "<token1_address>": {
+                "<token0_address>": 50000
+            }
+        },
+        "protocol_utils": {}
+    },
+    "states": {
+        "reserve0": 0,
+        "reserve1": 0
+    },
+    "results": {
+        "fee_amount": 0,
+        "amount_out": 0
+    }
+}
